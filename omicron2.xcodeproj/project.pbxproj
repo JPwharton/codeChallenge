@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A474F1F9E67947D63D7F9BAF /* Pods_omicron2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009FFE2FBE366148A52DA578 /* Pods_omicron2Tests.framework */; };
+		ABDD7DB805F7D016F7318C29 /* Pods_omicron2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26B0F575350AABA2BCBEE164 /* Pods_omicron2.framework */; };
+		BBD2B6B8306CCB83FDF5A004 /* Pods_omicron2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBEC8E54738DDC120ED08638 /* Pods_omicron2UITests.framework */; };
 		F1A10F5F1EF05021007F1D6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10F5E1EF05021007F1D6A /* AppDelegate.swift */; };
-		F1A10F611EF05021007F1D6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10F601EF05021007F1D6A /* ViewController.swift */; };
 		F1A10F641EF05021007F1D6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A10F621EF05021007F1D6A /* Main.storyboard */; };
 		F1A10F661EF05021007F1D6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1A10F651EF05021007F1D6A /* Assets.xcassets */; };
 		F1A10F691EF05021007F1D6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1A10F671EF05021007F1D6A /* LaunchScreen.storyboard */; };
 		F1A10F741EF05021007F1D6A /* omicron2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10F731EF05021007F1D6A /* omicron2Tests.swift */; };
 		F1A10F7F1EF05021007F1D6A /* omicron2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10F7E1EF05021007F1D6A /* omicron2UITests.swift */; };
+		F1A10F8D1EF0546B007F1D6A /* ForecastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10F8C1EF0546B007F1D6A /* ForecastVC.swift */; };
+		F1A10F8F1EF05482007F1D6A /* ForecastCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10F8E1EF05482007F1D6A /* ForecastCell.swift */; };
+		F1A10F971EF05569007F1D6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10F961EF05569007F1D6A /* Constants.swift */; };
+		F1A10F991EF0558E007F1D6A /* Days.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10F981EF0558E007F1D6A /* Days.swift */; };
+		F1A10F9B1EF06686007F1D6A /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A10F9A1EF06686007F1D6A /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009FFE2FBE366148A52DA578 /* Pods_omicron2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omicron2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		01FFA555FB82E5BE07D2188B /* Pods-omicron2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omicron2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-omicron2/Pods-omicron2.debug.xcconfig"; sourceTree = "<group>"; };
+		26B0F575350AABA2BCBEE164 /* Pods_omicron2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omicron2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA479D5750544FF52E9F3A2 /* Pods-omicron2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omicron2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-omicron2Tests/Pods-omicron2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A7AF77E76BCC5B13B411726E /* Pods-omicron2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omicron2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-omicron2Tests/Pods-omicron2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BBEC8E54738DDC120ED08638 /* Pods_omicron2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_omicron2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C86ABA62DD3E18A68F25D671 /* Pods-omicron2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omicron2.release.xcconfig"; path = "Pods/Target Support Files/Pods-omicron2/Pods-omicron2.release.xcconfig"; sourceTree = "<group>"; };
 		F1A10F5B1EF05021007F1D6A /* omicron2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = omicron2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A10F5E1EF05021007F1D6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F1A10F601EF05021007F1D6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F1A10F631EF05021007F1D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F1A10F651EF05021007F1D6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1A10F681EF05021007F1D6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +60,13 @@
 		F1A10F7A1EF05021007F1D6A /* omicron2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = omicron2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1A10F7E1EF05021007F1D6A /* omicron2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = omicron2UITests.swift; sourceTree = "<group>"; };
 		F1A10F801EF05021007F1D6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1A10F8C1EF0546B007F1D6A /* ForecastVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastVC.swift; sourceTree = "<group>"; };
+		F1A10F8E1EF05482007F1D6A /* ForecastCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForecastCell.swift; sourceTree = "<group>"; };
+		F1A10F961EF05569007F1D6A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F1A10F981EF0558E007F1D6A /* Days.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Days.swift; sourceTree = "<group>"; };
+		F1A10F9A1EF06686007F1D6A /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		F2EEEEE3024FC1C391C0D43D /* Pods-omicron2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omicron2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-omicron2UITests/Pods-omicron2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		FEB3572BB87DA98FCBBE9A4C /* Pods-omicron2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-omicron2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-omicron2UITests/Pods-omicron2UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABDD7DB805F7D016F7318C29 /* Pods_omicron2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A474F1F9E67947D63D7F9BAF /* Pods_omicron2Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBD2B6B8306CCB83FDF5A004 /* Pods_omicron2UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6F1046BDEA445E05AC7DCEC2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01FFA555FB82E5BE07D2188B /* Pods-omicron2.debug.xcconfig */,
+				C86ABA62DD3E18A68F25D671 /* Pods-omicron2.release.xcconfig */,
+				A7AF77E76BCC5B13B411726E /* Pods-omicron2Tests.debug.xcconfig */,
+				9EA479D5750544FF52E9F3A2 /* Pods-omicron2Tests.release.xcconfig */,
+				FEB3572BB87DA98FCBBE9A4C /* Pods-omicron2UITests.debug.xcconfig */,
+				F2EEEEE3024FC1C391C0D43D /* Pods-omicron2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		89E361FCE3CFF982BEE9744D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26B0F575350AABA2BCBEE164 /* Pods_omicron2.framework */,
+				009FFE2FBE366148A52DA578 /* Pods_omicron2Tests.framework */,
+				BBEC8E54738DDC120ED08638 /* Pods_omicron2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F1A10F521EF05021007F1D6A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				F1A10F721EF05021007F1D6A /* omicron2Tests */,
 				F1A10F7D1EF05021007F1D6A /* omicron2UITests */,
 				F1A10F5C1EF05021007F1D6A /* Products */,
+				6F1046BDEA445E05AC7DCEC2 /* Pods */,
+				89E361FCE3CFF982BEE9744D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +145,10 @@
 		F1A10F5D1EF05021007F1D6A /* omicron2 */ = {
 			isa = PBXGroup;
 			children = (
-				F1A10F5E1EF05021007F1D6A /* AppDelegate.swift */,
-				F1A10F601EF05021007F1D6A /* ViewController.swift */,
-				F1A10F621EF05021007F1D6A /* Main.storyboard */,
-				F1A10F651EF05021007F1D6A /* Assets.xcassets */,
-				F1A10F671EF05021007F1D6A /* LaunchScreen.storyboard */,
-				F1A10F6A1EF05021007F1D6A /* Info.plist */,
+				F1A10F931EF054D2007F1D6A /* Model */,
+				F1A10F921EF054C6007F1D6A /* View */,
+				F1A10F901EF054B0007F1D6A /* Controller */,
+				F1A10F911EF054BE007F1D6A /* Support */,
 			);
 			path = omicron2;
 			sourceTree = "<group>";
@@ -125,6 +171,44 @@
 			path = omicron2UITests;
 			sourceTree = "<group>";
 		};
+		F1A10F901EF054B0007F1D6A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F1A10F8C1EF0546B007F1D6A /* ForecastVC.swift */,
+				F1A10F8E1EF05482007F1D6A /* ForecastCell.swift */,
+				F1A10F9A1EF06686007F1D6A /* DetailVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F1A10F911EF054BE007F1D6A /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				F1A10F5E1EF05021007F1D6A /* AppDelegate.swift */,
+				F1A10F651EF05021007F1D6A /* Assets.xcassets */,
+				F1A10F671EF05021007F1D6A /* LaunchScreen.storyboard */,
+				F1A10F6A1EF05021007F1D6A /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		F1A10F921EF054C6007F1D6A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F1A10F621EF05021007F1D6A /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F1A10F931EF054D2007F1D6A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F1A10F961EF05569007F1D6A /* Constants.swift */,
+				F1A10F981EF0558E007F1D6A /* Days.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1A10F831EF05021007F1D6A /* Build configuration list for PBXNativeTarget "omicron2" */;
 			buildPhases = (
+				88865A75D303F12DD34D6FB9 /* [CP] Check Pods Manifest.lock */,
 				F1A10F571EF05021007F1D6A /* Sources */,
 				F1A10F581EF05021007F1D6A /* Frameworks */,
 				F1A10F591EF05021007F1D6A /* Resources */,
+				9253A26826F8B929D51A5533 /* [CP] Embed Pods Frameworks */,
+				F4FF5A22FF67E26CE9F35C2F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +236,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1A10F861EF05021007F1D6A /* Build configuration list for PBXNativeTarget "omicron2Tests" */;
 			buildPhases = (
+				6B6CF077B650B12ED6343849 /* [CP] Check Pods Manifest.lock */,
 				F1A10F6B1EF05021007F1D6A /* Sources */,
 				F1A10F6C1EF05021007F1D6A /* Frameworks */,
 				F1A10F6D1EF05021007F1D6A /* Resources */,
+				8BE6EA33F081D53D4CA275AE /* [CP] Embed Pods Frameworks */,
+				6A4AB217F1A855EB0155D3AB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F1A10F891EF05021007F1D6A /* Build configuration list for PBXNativeTarget "omicron2UITests" */;
 			buildPhases = (
+				A3052AFF318F1E164AF312FF /* [CP] Check Pods Manifest.lock */,
 				F1A10F761EF05021007F1D6A /* Sources */,
 				F1A10F771EF05021007F1D6A /* Frameworks */,
 				F1A10F781EF05021007F1D6A /* Resources */,
+				10CCBFDB55E533DA0A602845 /* [CP] Embed Pods Frameworks */,
+				0D2CC136BAA2DB5606E32B77 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,13 +350,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D2CC136BAA2DB5606E32B77 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omicron2UITests/Pods-omicron2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		10CCBFDB55E533DA0A602845 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omicron2UITests/Pods-omicron2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A4AB217F1A855EB0155D3AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omicron2Tests/Pods-omicron2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B6CF077B650B12ED6343849 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88865A75D303F12DD34D6FB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8BE6EA33F081D53D4CA275AE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omicron2Tests/Pods-omicron2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9253A26826F8B929D51A5533 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omicron2/Pods-omicron2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3052AFF318F1E164AF312FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F4FF5A22FF67E26CE9F35C2F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-omicron2/Pods-omicron2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F1A10F571EF05021007F1D6A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1A10F611EF05021007F1D6A /* ViewController.swift in Sources */,
 				F1A10F5F1EF05021007F1D6A /* AppDelegate.swift in Sources */,
+				F1A10F991EF0558E007F1D6A /* Days.swift in Sources */,
+				F1A10F8F1EF05482007F1D6A /* ForecastCell.swift in Sources */,
+				F1A10F8D1EF0546B007F1D6A /* ForecastVC.swift in Sources */,
+				F1A10F971EF05569007F1D6A /* Constants.swift in Sources */,
+				F1A10F9B1EF06686007F1D6A /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +648,7 @@
 		};
 		F1A10F841EF05021007F1D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01FFA555FB82E5BE07D2188B /* Pods-omicron2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y58S2QM826;
@@ -426,6 +662,7 @@
 		};
 		F1A10F851EF05021007F1D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C86ABA62DD3E18A68F25D671 /* Pods-omicron2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = Y58S2QM826;
@@ -439,6 +676,7 @@
 		};
 		F1A10F871EF05021007F1D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7AF77E76BCC5B13B411726E /* Pods-omicron2Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +692,7 @@
 		};
 		F1A10F881EF05021007F1D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EA479D5750544FF52E9F3A2 /* Pods-omicron2Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -469,6 +708,7 @@
 		};
 		F1A10F8A1EF05021007F1D6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEB3572BB87DA98FCBBE9A4C /* Pods-omicron2UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Y58S2QM826;
@@ -483,6 +723,7 @@
 		};
 		F1A10F8B1EF05021007F1D6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2EEEEE3024FC1C391C0D43D /* Pods-omicron2UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = Y58S2QM826;
@@ -514,6 +755,7 @@
 				F1A10F851EF05021007F1D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1A10F861EF05021007F1D6A /* Build configuration list for PBXNativeTarget "omicron2Tests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +764,7 @@
 				F1A10F881EF05021007F1D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1A10F891EF05021007F1D6A /* Build configuration list for PBXNativeTarget "omicron2UITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +773,7 @@
 				F1A10F8B1EF05021007F1D6A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
